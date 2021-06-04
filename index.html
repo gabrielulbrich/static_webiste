@@ -4,10 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>FORMULARIO TESTE123</h1>
+    <h1>FORMULARIO TESTE</h1>
+
+    <form id="form">
+        <label for="">Nome</label>
+        <input type="text" name="nome" required>
+        <label for="">Email</label>
+        <input type="text" name="email" required>
+        <label for="">Telefone</label>
+        <input type="text" name="telefone" required>
+        <label for="">Mensagem</label>
+        <input type="text" name="mensagem" required>
+        <label><input type="checkbox" name="aceito_wpp">Aceito receber contato por WhatsApp</label>
+        <label><input type="checkbox" name="aceito_email">Aceito receber contato por e-mail</label>
+        <label><input type="checkbox" name="termo">Estou ciente de que os meus dados pessoais serão tratados e compartilhados com empresas terceiras com a finalidade de atendimento da minha solicitação e, com o objetivo de realizar um atendimento personalizado, a empresa verificará internamente eventual histórico de serviços e/ou produtos relacionados aos meus dados pessoais.</label>
+        <button id="send-button">ENVIAR</button>
+    </form>
+
+    
+    <script src="js/script.js"></script>
 </body>
 </html>
