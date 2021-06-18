@@ -5,3 +5,7 @@ input[type="text"] {
 label {
     display: block;
 }
+
+.sucesso {
+    color: green;
+}
